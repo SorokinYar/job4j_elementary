@@ -1,15 +1,14 @@
 package ru.job4j.calculator;
 
 public class Methods {
-    public static void plus(int first, int second) {
+    public static int plus(int first, int second) {
         int results = first + second;
-        System.out.println(results);
+        return results;
     }
 
     public static void main(String[] args) {
-        Methods.plus(100, 500);
-        Methods.plus(2, 3);
-        Methods.plus(5, 3);
+        int x = Methods.plus(12, 2);
+        System.out.println(x);
     }
 }
 
