@@ -11,7 +11,7 @@ public class MathFunction {
     }
 
     public static void main(String[] args) {
-        int results3 = MathFunction.func1(100);
+        int results3 = func1(100);
         System.out.println(results3);
         int resultsFunc2 = MathFunction.func2(1);
         System.out.println(resultsFunc2);

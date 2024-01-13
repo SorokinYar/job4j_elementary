@@ -28,5 +28,8 @@ public class Calculator {
         System.out.println(size);
         size = size / 15;
         System.out.println(size);
+
+        int matFunResult = MathFunction.func1(6);
+       double pOM = PracticeOfMethods.func4(1.45 , 2.44);
     }
 }
